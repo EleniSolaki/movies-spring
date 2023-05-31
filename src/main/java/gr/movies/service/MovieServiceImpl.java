@@ -22,7 +22,6 @@ public class MovieServiceImpl implements IMovieService{
 
     @Override
     public Movies addMovie(MoviesDTO movieDTO) {
-        System.out.println("i am now in service");
         Movies movie = new Movies();
         movie.setTitle(movieDTO.getTitle());
         movie.setYear(movieDTO.getYear());
